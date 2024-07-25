@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow cleartext traffic (HTTP) for specific domains -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">yourserver.com</domain>
+    </domain-config>
+
+    <!-- Configure custom trust anchors (if needed) -->
+    <!-- <trust-anchors>
+        <certificates src="@raw/custom_trust_anchor"/>
+    </trust-anchors> -->
+</network-security-config>

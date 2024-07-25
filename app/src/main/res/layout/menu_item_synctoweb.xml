@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="80dp">
+
+    <TextView
+        android:id="@+id/menu_refresh_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sync To Db"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/menu_refresh_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/menu_refresh_title"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/ic_action_synctoweb" />
+
+</RelativeLayout>
